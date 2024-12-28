@@ -1,6 +1,10 @@
+import { Navbar } from "./sections/Navbar";
+
 const App = () => {
   return (
-    <div className="text-xl font-bold text-green-700">Hello Portfolio</div>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
   );
 };
 
