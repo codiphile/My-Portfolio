@@ -24,36 +24,36 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Priya Sharma",
+    position: "Digital Marketing Head at Arya Handlooms",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Mudit was an absolute delight. He revamped our website to highlight Indian handloom heritage, making it both visually stunning and user-friendly. His dedication to understanding our cultural ethos and integrating it into the website design is commendable. Highly recommend him for any web development needs.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Rohit Mehra",
+    position: "Co-Founder of DesiTech Solutions",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Mudit’s technical expertise is phenomenal. He built a custom web platform for our startup, which not only looks professional but also performs flawlessly. Since its launch, we’ve seen a 40% boost in client engagement. His understanding of the Indian tech ecosystem is an added advantage.",
   },
-  {
-    id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
+  // {
+  //   id: 3,
+  //   name: "Anuj Kapadia",
+  //   position: "Project Manager at Incredible India Tours",
+  //   img: "assets/review3.png",
+  //   review:
+  //     "Mudit’s problem-solving skills are remarkable. He helped us create a travel booking website that beautifully showcases India's tourism potential. The platform is seamless and user-friendly, making it a hit among our clients. Can’t thank him enough for his incredible work.",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Arjun Verma",
+  //   position: "CEO of Shakti Enterprises",
+  //   img: "assets/review4.png",
+  //   review:
+  //     "It was a pleasure working with Mudit. He delivered a scalable e-commerce platform tailored to our Indian customer base, ensuring fast load times even during high traffic. His knowledge of both frontend and backend technologies is truly exceptional.",
+  // },
 ];
 
 export const myProjects = [
