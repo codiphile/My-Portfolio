@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import About from "./sections/About";
 import Clients from "./sections/Clients";
 import Contact from "./sections/Contact";
@@ -14,6 +15,7 @@ const App = () => {
       <Projects />
       <Clients />
       <Contact />
+      <Footer />
     </main>
   );
 };
