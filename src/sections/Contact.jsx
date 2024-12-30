@@ -46,19 +46,21 @@ const Contact = () => {
   return (
     <section className="c-space my-20">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <h3 className="head-text absolute top-12 z-[12]">Contact Me</h3>
+        <h3 className="head-text absolute top-12 hidden sm:block  z-[12]">
+          Contact Me
+        </h3>
         <img
           src="/assets/terminal.svg"
           alt="terminal"
           className="absolute right-0 min-h-screen hidden sm:block"
         />
-        <div className="absolute top-0 bg-black-600 w-full h-full sm:hidden z-[10] rounded-xl p-4">
+        <div className="absolute top-0 bg-black-600 w-full min-h-[800px] sm:hidden z-[10] rounded-xl p-4">
           <div className="flex justify-between items-center gap-2 max-w-[20%]">
             <div className="rounded-full bg-green-600 w-4 h-4"></div>
             <div className="rounded-full bg-yellow-600 w-4 h-4"></div>
             <div className="rounded-full bg-red-600 w-4 h-4"></div>
           </div>
-          <div className="w-full border my-16 border-white-500"></div>
+          <div className="w-full border my-14 border-white-500"></div>
         </div>
         <div className="contact-container">
           <h3 className="head-text">Let's Talk </h3>
