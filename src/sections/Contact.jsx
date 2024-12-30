@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const formRef = useRef();
-  const [loading, setLoading] = useState();
+  const [loading, setLoading] = useState(false); // Set default value to false
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,16 +19,16 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        "service_zhopy1j",
+        "template_gshbz76",
         {
           from_name: form.name,
           to_name: "Mudit",
           from_email: form.email,
-          to_email: process.env.REACT_APP_EMAILJS_TO_EMAIL,
+          to_email: "mudits798@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_EMAILJS_USER_ID
+        "BQxDw7NOFOOvVo57F"
       );
       setLoading(false);
       alert("Your message has been sent");
