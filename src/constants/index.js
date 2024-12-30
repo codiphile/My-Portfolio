@@ -309,32 +309,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Encrypti V",
+    pos: "Lead Frontend Developer",
+    duration: "2024 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "At Encrypti V, a DEI club-funded project from SRMIST, I played a key role in developing the SaaS homepage and the front-end for the project’s file system. I contributed to creating a user-friendly and responsive interface, ensuring a seamless experience for users. In addition, I developed a comprehensive blog section that enabled the project to publish and manage weekly blogs, enhancing engagement and knowledge sharing within the community. Encrypti V is dedicated to providing cutting-edge quantum-safe encryption solutions, and my contributions helped enhance its online presence and functionality.",
+    icon: "/assets/encryptiv.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
+    name: "Freelance Web Developer",
     pos: "Web Developer",
-    duration: "2020 - 2022",
+    duration: "2023 - present",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "During my freelancing career, I successfully collaborated with various clients to deliver tailored web solutions. I specialized in developing dynamic SaaS homepages, ensuring a modern, responsive design that met business needs. Additionally, I created fully functional e-commerce applications, focusing on user-friendly interfaces and smooth transactional experiences. My experience in freelancing allowed me to work across diverse industries, honing my skills in front-end and back-end development while delivering high-quality solutions on time.",
+    icon: "/assets/vlogger.gif",
     animation: "clapping",
   },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
-  },
+  // {
+  //   id: 3,
+  //   name: "Notion",
+  //   pos: "Junior Web Developer",
+  //   duration: "2019 - 2020",
+  //   title:
+  //     "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //   icon: "/assets/notion.svg",
+  //   animation: "salute",
+  // },
 ];

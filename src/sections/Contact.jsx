@@ -46,9 +46,6 @@ const Contact = () => {
   return (
     <section className="c-space my-20">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <h3 className="head-text absolute top-12 hidden sm:block  z-[12]">
-          Contact Me
-        </h3>
         <img
           src="/assets/terminal.svg"
           alt="terminal"
