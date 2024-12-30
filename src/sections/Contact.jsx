@@ -19,16 +19,16 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_zhopy1j",
-        "template_gshbz76",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Mudit",
           from_email: form.email,
-          to_email: "mudits798@gmail.com",
+          to_email: process.env.REACT_APP_EMAILJS_TO_EMAIL,
           message: form.message,
         },
-        "BQxDw7NOFOOvVo57F"
+        process.env.REACT_APP_EMAILJS_USER_ID
       );
       setLoading(false);
       alert("Your message has been sent");
@@ -122,5 +122,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-//service_zhopy1j
